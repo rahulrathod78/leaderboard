@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#Score {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.box {
+  text-align: center;
+  font-weight: bold;
+}
+
+#minBox,
+#maxBox {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  top: 50%;
+  border: 2px solid black;
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#minBox{
+  background-color: red;
+}
+#maxBox {
+  background-color: green;
+}
+.inpbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  
+}
+
+#scoreBox {
+  width: 250px;
+  height: 80px;
+  font-size: 24px;
+  text-align: center;
+  background-color: dimgrey;
+  color: black;
+  font-weight: bold;
+}
+
+#btn {
+  margin-top: 30px;
+}
+#btn div {
+display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+.number-button {
+  width: 70px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 24px;
+ 
+}
+#color1{
+  background-color: darkgreen;
+}
+#orange{
+  background-color:orangered;
+}
+#pink{
+  background-color: purple;
+}
+#enterButton{
+    width: 250px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    font-size: 24px;
+}
